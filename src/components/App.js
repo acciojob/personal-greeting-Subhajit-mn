@@ -14,7 +14,7 @@ const App = () => {
         <label>
           Enter your name: <input name="name" onChange={handleChange} value={name} />
         </label>
-        <h2>Hello {name}!</h2>
+        <p>Hello {name}!</p>
     </div>
   )
 }
